@@ -1,2 +1,4 @@
 #!/bin/bash
-pwd
+the_path="${1}"
+echo $the_path
+eval "pwd"
